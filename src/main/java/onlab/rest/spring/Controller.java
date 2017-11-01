@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import onlab.rest.spring.dao.*;
-import onlab.rest.spring.entities.*;
+import onlab.rest.spring.dal.*;
+import onlab.rest.spring.model.*;
 import org.springframework.stereotype.Component;
 
 @RestController

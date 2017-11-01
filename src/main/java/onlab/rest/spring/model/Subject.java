@@ -1,4 +1,4 @@
-package onlab.rest.spring.entities;
+package onlab.rest.spring.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

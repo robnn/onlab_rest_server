@@ -17,5 +17,6 @@
 
   <context:component-scan base-package="onlab.rest"/>
        <context:annotation-config/>
+    <context:property-override location="database/jdbc.properties"/>
 
 </beans>

@@ -12,6 +12,7 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication
 @ComponentScan
 public class Application extends SpringBootServletInitializer {
+	private static Class<Application> applicationClass = Application.class;
 
 	//ApplicationContext context = 
             //new ClassPathXmlApplicationContext("Beans.xml");
@@ -25,5 +26,5 @@ public class Application extends SpringBootServletInitializer {
 		return application.sources(applicationClass);
 	}
 
-	private static Class<Application> applicationClass = Application.class;
+
 }
